@@ -1,0 +1,34 @@
+{
+  "name": "dtreemap-build",
+  "version": "0.1.0-dev",
+  "dependencies": {
+    "dcl": "1.1.x",
+    "requirejs": "2.1.x",
+    "dstore": "0.1.0",
+    "dcolor-build": "0.1.x",
+    "dpointer-build": "0.1.x",
+    "delite-build": "0.1.10-dev"
+  },
+  "ibm-js": {
+    "platforms": {
+      "Android": ">=4.4",
+      "iOS": ">=7.0",
+      "Safari": ">=7.0",
+      "Chrome": ">=35",
+      "IE": ">=10",
+      "Firefox": ">=24"
+    },
+    "features": {
+      "a11y": [
+        "JAWS",
+        "highconstrast"
+      ],
+      "g11n": [
+        "bidi"
+      ]
+    }
+  },
+  "devDependencies": {
+    "dtreemap": "0.1.0-dev"
+  }
+}

@@ -27,14 +27,14 @@ Then install dependencies with bower (or manually from github if you prefer to):
 To load the minified layer you need to wrap your main `require` call with another `require`, requiring `"dtreemap-build/layer"`. Then you should continue to
 refer to modules with `"dtreemap/foo"`.
 
-For example, this:
-```
+For example, this code:
+```js
 require(["app/main", "dtreemap/foo"], function() {
 	...
 });
 ```
 Becomes:
-```
+```js
 require(["dtreemap-build/layer"], function() {
 	require(["app/main", "dtreemap/foo"], function() {
 		...

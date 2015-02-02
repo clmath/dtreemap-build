@@ -1,12 +1,15 @@
 {
   "name": "dtreemap-build",
-  "version": "0.2.1",
+  "version": "0.3.0",
   "dependencies": {
     "requirejs": "2.1.x",
     "dstore": "1.0.x",
     "dcolor-build": "0.1.x",
-    "dpointer-build": "0.4.x",
-    "delite-build": "0.5.x"
+    "dpointer-build": "0.5.x",
+    "delite-build": "0.6.x"
+  },
+  "devDependencies": {
+    "dtreemap": "0.3.0"
   },
   "keywords": [
     "web-components",
@@ -31,8 +34,5 @@
         "bidi"
       ]
     }
-  },
-  "devDependencies": {
-    "dtreemap": "0.2.1"
   }
 }

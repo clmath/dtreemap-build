@@ -4,9 +4,10 @@ return a(null,{createRenderer:a.superCall(function(b){return function(c,d,e){var
 //# sourceMappingURL=layer.map
 var paths = {};
 !require.s.contexts._.config.paths["dtreemap"] && (paths["dtreemap"] = "dtreemap-build");
+!require.s.contexts._.config.paths["dcolor"] && (paths["dcolor"] = "dcolor-build");
 !require.s.contexts._.config.paths["dpointer"] && (paths["dpointer"] = "dpointer-build");
 !require.s.contexts._.config.paths["delite"] && (paths["delite"] = "delite-build");
 require.config({
 	paths: paths
 });
-define("dtreemap-build/layer", ["dpointer-build/layer","delite-build/layer"], function(){});
+define("dtreemap-build/layer", ["dcolor-build/layer","dpointer-build/layer","delite-build/layer"], function(){});

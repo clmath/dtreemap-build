@@ -52,6 +52,7 @@ If `baseUrl` is not the directory containing `dtreemap-build`, custom configurat
 require.config({
 	paths: {
 		"dtreemap": "path/to/dtreemap-build",
+		"dcolor": "path/to/dcolor-build",
 		"dpointer": "path/to/dpointer-build",
 		"delite": "path/to/delite-build"
 	}

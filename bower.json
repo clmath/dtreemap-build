@@ -1,15 +1,15 @@
 {
   "name": "dtreemap-build",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "dependencies": {
     "requirejs": "2.1.x",
     "dstore": "1.0.x",
     "dcolor-build": "0.1.x",
     "dpointer-build": "0.5.x",
-    "delite-build": "0.6.x"
+    "delite-build": "0.7.x"
   },
   "devDependencies": {
-    "dtreemap": "0.3.0"
+    "dtreemap": "0.4.0"
   },
   "keywords": [
     "web-components",
